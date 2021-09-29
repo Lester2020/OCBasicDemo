@@ -12,7 +12,6 @@
 
 //实现NSCoding的自动归档和自动解档
 //用runtime提供的函数遍历Model自身所有属性，并对属性进行encode和decode操作
-
 - (instancetype)initWithCoder:(NSCoder *)coder
 {
     self = [super init];

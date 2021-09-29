@@ -18,6 +18,10 @@
 		A280BA5626E0A000002070F2 /* YZPersonSpare.m in Sources */ = {isa = PBXBuildFile; fileRef = A280BA5526E0A000002070F2 /* YZPersonSpare.m */; };
 		A280BA5926E0AEAA002070F2 /* NSURL+url.m in Sources */ = {isa = PBXBuildFile; fileRef = A280BA5826E0AEAA002070F2 /* NSURL+url.m */; };
 		A280BA5C26E0B228002070F2 /* YZPersonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A280BA5B26E0B228002070F2 /* YZPersonModel.m */; };
+		A298C1802704761B004B0377 /* PersonFirst.m in Sources */ = {isa = PBXBuildFile; fileRef = A298C17F2704761B004B0377 /* PersonFirst.m */; };
+		A298C1832704762C004B0377 /* PersonSecond.m in Sources */ = {isa = PBXBuildFile; fileRef = A298C1822704762C004B0377 /* PersonSecond.m */; };
+		A298C1862704763F004B0377 /* PersonThid.m in Sources */ = {isa = PBXBuildFile; fileRef = A298C1852704763F004B0377 /* PersonThid.m */; };
+		A298C18927047A5F004B0377 /* WeakModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A298C18827047A5E004B0377 /* WeakModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +45,14 @@
 		A280BA5826E0AEAA002070F2 /* NSURL+url.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSURL+url.m"; sourceTree = "<group>"; };
 		A280BA5A26E0B228002070F2 /* YZPersonModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZPersonModel.h; sourceTree = "<group>"; };
 		A280BA5B26E0B228002070F2 /* YZPersonModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZPersonModel.m; sourceTree = "<group>"; };
+		A298C17E2704761B004B0377 /* PersonFirst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonFirst.h; sourceTree = "<group>"; };
+		A298C17F2704761B004B0377 /* PersonFirst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonFirst.m; sourceTree = "<group>"; };
+		A298C1812704762C004B0377 /* PersonSecond.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonSecond.h; sourceTree = "<group>"; };
+		A298C1822704762C004B0377 /* PersonSecond.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonSecond.m; sourceTree = "<group>"; };
+		A298C1842704763F004B0377 /* PersonThid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonThid.h; sourceTree = "<group>"; };
+		A298C1852704763F004B0377 /* PersonThid.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonThid.m; sourceTree = "<group>"; };
+		A298C18727047A5E004B0377 /* WeakModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeakModel.h; sourceTree = "<group>"; };
+		A298C18827047A5E004B0377 /* WeakModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeakModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +97,16 @@
 				A280BA5526E0A000002070F2 /* YZPersonSpare.m */,
 				A280BA5726E0AEAA002070F2 /* NSURL+url.h */,
 				A280BA5826E0AEAA002070F2 /* NSURL+url.m */,
+				A298C18727047A5E004B0377 /* WeakModel.h */,
+				A298C18827047A5E004B0377 /* WeakModel.m */,
 				A280BA5A26E0B228002070F2 /* YZPersonModel.h */,
 				A280BA5B26E0B228002070F2 /* YZPersonModel.m */,
+				A298C17E2704761B004B0377 /* PersonFirst.h */,
+				A298C17F2704761B004B0377 /* PersonFirst.m */,
+				A298C1812704762C004B0377 /* PersonSecond.h */,
+				A298C1822704762C004B0377 /* PersonSecond.m */,
+				A298C1842704763F004B0377 /* PersonThid.h */,
+				A298C1852704763F004B0377 /* PersonThid.m */,
 				A280BA3E26E074C1002070F2 /* Main.storyboard */,
 				A280BA4126E074C5002070F2 /* Assets.xcassets */,
 				A280BA4326E074C5002070F2 /* LaunchScreen.storyboard */,
@@ -167,9 +187,13 @@
 			files = (
 				A280BA5326E098E2002070F2 /* YZRuntimeTool.m in Sources */,
 				A280BA3D26E074C1002070F2 /* ViewController.m in Sources */,
+				A298C1832704762C004B0377 /* PersonSecond.m in Sources */,
+				A298C18927047A5F004B0377 /* WeakModel.m in Sources */,
 				A280BA3726E074C1002070F2 /* AppDelegate.m in Sources */,
+				A298C1802704761B004B0377 /* PersonFirst.m in Sources */,
 				A280BA5026E07672002070F2 /* Person.m in Sources */,
 				A280BA5926E0AEAA002070F2 /* NSURL+url.m in Sources */,
+				A298C1862704763F004B0377 /* PersonThid.m in Sources */,
 				A280BA5C26E0B228002070F2 /* YZPersonModel.m in Sources */,
 				A280BA4826E074C5002070F2 /* main.m in Sources */,
 				A280BA5626E0A000002070F2 /* YZPersonSpare.m in Sources */,

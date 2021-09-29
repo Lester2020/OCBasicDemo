@@ -42,4 +42,15 @@ static const char *key = "urlKey";
     objc_setAssociatedObject(self, key, urlStr, OBJC_ASSOCIATION_COPY_NONATOMIC);
 }
 
+//在分类中写weak属性实现方式
+static const char *key1 = "weakKey";
+
+- (void)setModel:(WeakModel *)model {
+    objc_setAssociatedObject(self, key1, model, OBJC_ASSOCIATION_RETAIN);
+}
+
+- (WeakModel *)model {
+    return objc_getAssociatedObject(self, key1);
+}
+
 @end

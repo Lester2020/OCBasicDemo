@@ -6,10 +6,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "WeakModel.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface NSURL (url)
+
+@property (nonatomic, strong) WeakModel *model;
 
 @property (nonatomic, copy) NSString *urlStr;
 

@@ -7,6 +7,7 @@
 
 #import "YZRuntimeTool.h"
 #import <objc/runtime.h>
+#import "PersonThid.h"
 
 @implementation YZRuntimeTool
 
@@ -35,5 +36,27 @@
     class_addMethod(cls, methodSel, methodIMP, types);
 }
 
+//runtime如何通过selector找到对应的IMP地址?
+- (void)test {
+    //方法一：
+    //获取方法实现IMP地址
+    IMP clsIMP = class_getMethodImplementation(objc_getMetaClass([NSStringFromClass([self class]) UTF8String]), @selector(testFunc));
+    IMP instIMP = class_getMethodImplementation(objc_getClass("Test"), @selector(testFunc));
+    
+    //方法二：
+    Method method1 = class_getClassMethod([self class], @selector(testFunc));
+    Method method2 = class_getInstanceMethod([self class], @selector(testFunc));
+    IMP imp = method_getImplementation(method1);
+}
+
+
+- (void)testFunc {
+    
+}
+
+//获取一个类的所有父类
+- (void)enumerateClasses {
+     class_getSuperclass([PersonThid class]);
+}
 
 @end
